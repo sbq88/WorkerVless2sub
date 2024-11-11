@@ -362,7 +362,7 @@ export default {
 			edgetunnel = env.ED || edgetunnel;
 			RproxyIP = env.RPROXYIP || RproxyIP;
 
-			if (host == "null" || uuid == "null" ){
+			// if (host == "null" || uuid == "null" ){
 				let 空字段;
 				if (host == "null" && uuid == "null") 空字段 = "HOST/UUID";
 				else if (host == "null") 空字段 = "HOST";
